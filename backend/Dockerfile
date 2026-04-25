@@ -2,9 +2,7 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package.json ./
-COPY src ./src
-COPY data ./data
+COPY . .
 
 ENV NODE_ENV=production
 ENV HOST=0.0.0.0
