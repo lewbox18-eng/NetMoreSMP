@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NetMore Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
+  </head>
+  <body class="admin-page">
+    <div class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Operational controls</p>
+          <h1>NetMore Admin</h1>
+        </div>
+        <div class="topbar-actions">
+          <span id="adminStatus" class="badge">Disconnected</span>
+          <a class="button ghost-button" href="./index.html">Storefront</a>
+        </div>
+      </header>
+
+      <section class="admin-access-band">
+        <form id="adminConnectForm" class="admin-access-form">
+          <label>
+            <span>Admin key</span>
+            <input id="adminKeyInput" type="password" autocomplete="off" placeholder="Enter backend admin key">
+          </label>
+          <button class="button" type="submit">Connect</button>
+        </form>
+
+        <form id="adminFiltersForm" class="admin-filters-form">
+          <label>
+            <span>Payment</span>
+            <select id="paymentStatusFilter">
+              <option value="">All</option>
+              <option value="pending">Pending</option>
+              <option value="paid">Paid</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Delivery</span>
+            <select id="deliveryStatusFilter">
+              <option value="">All</option>
+              <option value="pending">Pending</option>
+              <option value="claimed">Claimed</option>
+              <option value="delivered">Delivered</option>
+              <option value="failed">Failed</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Player</span>
+            <input id="usernameFilter" type="text" placeholder="Filter by username">
+          </label>
+
+          <button class="button ghost-button" type="submit">Refresh</button>
+        </form>
+      </section>
+
+      <section class="admin-confirm-band">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">Quick confirm</p>
+            <h2>Paste the order number and confirm it</h2>
+          </div>
+        </div>
+        <form id="orderConfirmForm" class="order-confirm-form">
+          <label>
+            <span>Order number or order id</span>
+            <input id="orderConfirmInput" type="text" placeholder="ORD-20260425-00001">
+          </label>
+          <label>
+            <span>Player name</span>
+            <input id="orderConfirmPlayerInput" type="text" placeholder="lewbox16">
+          </label>
+          <button class="button" type="submit">Confirm order</button>
+        </form>
+      </section>
+
+      <section class="admin-catalog-band">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Catalog</p>
+            <h2>Edit shop items, images, descriptions, and reward keys</h2>
+          </div>
+          <span id="catalogCount" class="badge">0 items</span>
+        </div>
+
+        <div class="catalog-editor-layout">
+          <section class="catalog-create-panel">
+            <div class="section-heading compact">
+              <div>
+                <p class="eyebrow">Add item</p>
+                <h2>New catalog entry</h2>
+              </div>
+            </div>
+            <form id="catalogCreateForm" class="catalog-form"></form>
+          </section>
+
+          <section>
+            <div class="section-heading compact">
+              <div>
+                <p class="eyebrow">Existing items</p>
+                <h2>Live catalog editor</h2>
+              </div>
+            </div>
+            <div id="catalogGrid" class="catalog-editor-grid"></div>
+          </section>
+        </div>
+      </section>
+
+      <main class="admin-layout">
+        <section class="admin-orders-band">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Orders</p>
+              <h2>Payment and delivery state</h2>
+            </div>
+          </div>
+          <div id="ordersTable" class="orders-table"></div>
+        </section>
+
+        <section class="admin-logs-band">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Logs</p>
+              <h2>Recent backend events</h2>
+            </div>
+          </div>
+          <div id="logsPanel" class="logs-panel"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./assets/config.js"></script>
+    <script type="module" src="./assets/admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2a541"/>
+      <stop offset="100%" stop-color="#522c12"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="490" cy="98" r="92" fill="rgba(255,255,255,0.12)"/>
+  <g fill="#fff4de" opacity="0.9">
+    <circle cx="180" cy="220" r="18"/>
+    <circle cx="238" cy="182" r="14"/>
+    <circle cx="296" cy="150" r="20"/>
+    <circle cx="360" cy="122" r="12"/>
+    <circle cx="420" cy="104" r="18"/>
+  </g>
+  <path d="M130 270C200 210 250 170 330 130C390 100 430 88 500 82" fill="none" stroke="#fff4de" stroke-width="20" stroke-linecap="round" opacity="0.35"/>
+  <text x="82" y="92" fill="#ffffff" font-size="42" font-family="Arial, sans-serif" font-weight="700">EMBER TRAIL</text>
+  <text x="82" y="128" fill="#fff0d0" font-size="22" font-family="Arial, sans-serif">Cosmetic movement effect</text>
+</svg>
+

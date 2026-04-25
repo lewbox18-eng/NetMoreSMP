@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d95b37"/>
+      <stop offset="100%" stop-color="#301616"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="510" cy="110" r="100" fill="rgba(255,255,255,0.12)"/>
+  <path d="M130 260L210 90L320 180L410 70L500 260Z" fill="#f4d58d" opacity="0.9"/>
+  <rect x="84" y="248" width="472" height="20" rx="10" fill="rgba(255,255,255,0.24)"/>
+  <text x="84" y="90" fill="#ffffff" font-size="42" font-family="Arial, sans-serif" font-weight="700">VIP RANK</text>
+  <text x="84" y="126" fill="#ffe7df" font-size="22" font-family="Arial, sans-serif">Permanent rank unlock</text>
+</svg>
+
