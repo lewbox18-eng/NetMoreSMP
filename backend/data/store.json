@@ -1,0 +1,480 @@
+{
+  "sequences": {
+    "order": 5,
+    "payment": 5
+  },
+  "orders": [
+    {
+      "id": "ord_1804a3f711d7753c",
+      "orderNumber": "ORD-20260425-00005",
+      "username": "lewbox16",
+      "usernameNormalized": "lewbox16",
+      "lineItems": [
+        {
+          "productId": "netmore-key",
+          "name": "NetMore Key",
+          "description": "A direct server key reward for one NetMore crate key.",
+          "category": "Keys",
+          "quantity": 1,
+          "priceCents": 399,
+          "icon": "KEY",
+          "accent": "#4062bb",
+          "imageUrl": "./assets/products/netmore-key.svg",
+          "iconMaterial": "TRIPWIRE_HOOK",
+          "rewardKey": "netmore-key"
+        }
+      ],
+      "totals": {
+        "currency": "USD",
+        "itemCount": 1,
+        "subtotalCents": 399
+      },
+      "payment": {
+        "provider": "mock",
+        "status": "paid",
+        "reference": "MOCK-000005",
+        "paidAt": "2026-04-25T15:11:41.644Z"
+      },
+      "delivery": {
+        "status": "pending",
+        "claimedBy": null,
+        "claimToken": null,
+        "claimedAt": null,
+        "deliveredAt": null,
+        "failureReason": null,
+        "retryCount": 0,
+        "receipt": null
+      },
+      "source": {
+        "ipAddress": "127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Codex/26.422.30944 Chrome/146.0.7680.179 Electron/41.2.0 Safari/537.36",
+        "origin": "http://localhost:8080"
+      },
+      "createdAt": "2026-04-25T15:11:38.346Z",
+      "updatedAt": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "ord_e8d379577e2d25b4",
+      "orderNumber": "ORD-20260425-00004",
+      "username": "lewbox16",
+      "usernameNormalized": "lewbox16",
+      "lineItems": [
+        {
+          "productId": "netmore-key",
+          "name": "NetMore Key",
+          "description": "A direct server key reward for one NetMore crate key.",
+          "category": "Keys",
+          "quantity": 1,
+          "priceCents": 399,
+          "icon": "KEY",
+          "accent": "#4062bb",
+          "imageUrl": "./assets/products/netmore-key.svg",
+          "iconMaterial": "TRIPWIRE_HOOK",
+          "rewardKey": "netmore-key"
+        }
+      ],
+      "totals": {
+        "currency": "USD",
+        "itemCount": 1,
+        "subtotalCents": 399
+      },
+      "payment": {
+        "provider": "mock",
+        "status": "paid",
+        "reference": "MOCK-000004",
+        "paidAt": "2026-04-25T14:54:50.479Z"
+      },
+      "delivery": {
+        "status": "pending",
+        "claimedBy": null,
+        "claimToken": null,
+        "claimedAt": null,
+        "deliveredAt": null,
+        "failureReason": null,
+        "retryCount": 0,
+        "receipt": null
+      },
+      "source": {
+        "ipAddress": "127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Codex/26.422.30944 Chrome/146.0.7680.179 Electron/41.2.0 Safari/537.36",
+        "origin": "http://localhost:8080"
+      },
+      "createdAt": "2026-04-25T14:54:48.569Z",
+      "updatedAt": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "ord_206cfea265865bba",
+      "orderNumber": "ORD-20260425-00003",
+      "username": "lewbox16",
+      "usernameNormalized": "lewbox16",
+      "lineItems": [
+        {
+          "productId": "netmore-key",
+          "name": "NetMore Key",
+          "description": "A direct server key reward for one NetMore crate key.",
+          "category": "Keys",
+          "quantity": 1,
+          "priceCents": 399,
+          "icon": "KEY",
+          "accent": "#4062bb",
+          "imageUrl": "./assets/products/netmore-key.svg",
+          "iconMaterial": "TRIPWIRE_HOOK",
+          "rewardKey": "netmore-key"
+        }
+      ],
+      "totals": {
+        "currency": "USD",
+        "itemCount": 1,
+        "subtotalCents": 399
+      },
+      "payment": {
+        "provider": "mock",
+        "status": "paid",
+        "reference": "MOCK-000003",
+        "paidAt": "2026-04-25T12:22:19.231Z"
+      },
+      "delivery": {
+        "status": "pending",
+        "claimedBy": null,
+        "claimToken": null,
+        "claimedAt": null,
+        "deliveredAt": null,
+        "failureReason": null,
+        "retryCount": 0,
+        "receipt": null
+      },
+      "source": {
+        "ipAddress": "127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Codex/26.422.30944 Chrome/146.0.7680.179 Electron/41.2.0 Safari/537.36",
+        "origin": "http://localhost:8080"
+      },
+      "createdAt": "2026-04-25T12:22:13.921Z",
+      "updatedAt": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "ord_96ba169bb8d45e85",
+      "orderNumber": "ORD-20260425-00002",
+      "username": "lewbox16",
+      "usernameNormalized": "lewbox16",
+      "lineItems": [
+        {
+          "productId": "vip-rank",
+          "name": "VIP Rank",
+          "description": "Permanent VIP rank with chat flair, /hat, and 2 extra homes.",
+          "category": "Ranks",
+          "quantity": 1,
+          "priceCents": 999,
+          "icon": "VIP",
+          "accent": "#d95b37",
+          "imageUrl": "./assets/products/vip-rank.svg",
+          "iconMaterial": "GOLDEN_HELMET",
+          "rewardKey": "vip-rank"
+        }
+      ],
+      "totals": {
+        "currency": "USD",
+        "itemCount": 1,
+        "subtotalCents": 999
+      },
+      "payment": {
+        "provider": "mock",
+        "status": "paid",
+        "reference": "MOCK-000002",
+        "paidAt": "2026-04-25T12:00:43.870Z"
+      },
+      "delivery": {
+        "status": "pending",
+        "claimedBy": null,
+        "claimToken": null,
+        "claimedAt": null,
+        "deliveredAt": null,
+        "failureReason": null,
+        "retryCount": 0,
+        "receipt": null
+      },
+      "source": {
+        "ipAddress": "127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Codex/26.422.30944 Chrome/146.0.7680.179 Electron/41.2.0 Safari/537.36",
+        "origin": "http://localhost:8080"
+      },
+      "createdAt": "2026-04-25T12:00:40.106Z",
+      "updatedAt": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "ord_6bc42318f4d47011",
+      "orderNumber": "ORD-20260425-00001",
+      "username": "lewbox16",
+      "usernameNormalized": "lewbox16",
+      "lineItems": [
+        {
+          "productId": "crate-bundle",
+          "name": "Crate Bundle",
+          "description": "Five premium crate keys for seasonal rewards and cosmetics.",
+          "category": "Bundles",
+          "quantity": 1,
+          "priceCents": 1299,
+          "icon": "CR",
+          "accent": "#5c946e",
+          "imageUrl": "./assets/products/crate-bundle.svg",
+          "iconMaterial": "TRIPWIRE_HOOK",
+          "rewardKey": "crate-bundle"
+        }
+      ],
+      "totals": {
+        "currency": "USD",
+        "itemCount": 1,
+        "subtotalCents": 1299
+      },
+      "payment": {
+        "provider": "mock",
+        "status": "paid",
+        "reference": "MOCK-000001",
+        "paidAt": "2026-04-25T11:59:50.102Z"
+      },
+      "delivery": {
+        "status": "pending",
+        "claimedBy": null,
+        "claimToken": null,
+        "claimedAt": null,
+        "deliveredAt": null,
+        "failureReason": null,
+        "retryCount": 0,
+        "receipt": null
+      },
+      "source": {
+        "ipAddress": "127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Codex/26.422.30944 Chrome/146.0.7680.179 Electron/41.2.0 Safari/537.36",
+        "origin": "http://localhost:8080"
+      },
+      "createdAt": "2026-04-25T11:59:37.532Z",
+      "updatedAt": "2026-04-25T15:13:47.500Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_b4a97a051439eedd",
+      "scope": "plugin",
+      "event": "claimed",
+      "details": {
+        "orderId": "ord_6bc42318f4d47011",
+        "orderNumber": "ORD-20260425-00001",
+        "serverId": "paper-survival-01"
+      },
+      "timestamp": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "log_f9726412ba535007",
+      "scope": "plugin",
+      "event": "claimed",
+      "details": {
+        "orderId": "ord_96ba169bb8d45e85",
+        "orderNumber": "ORD-20260425-00002",
+        "serverId": "paper-survival-01"
+      },
+      "timestamp": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "log_cffc06784e48d129",
+      "scope": "plugin",
+      "event": "claimed",
+      "details": {
+        "orderId": "ord_206cfea265865bba",
+        "orderNumber": "ORD-20260425-00003",
+        "serverId": "paper-survival-01"
+      },
+      "timestamp": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "log_a88b5a4077d0fea3",
+      "scope": "plugin",
+      "event": "claimed",
+      "details": {
+        "orderId": "ord_e8d379577e2d25b4",
+        "orderNumber": "ORD-20260425-00004",
+        "serverId": "paper-survival-01"
+      },
+      "timestamp": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "log_1811dc1527d28dce",
+      "scope": "plugin",
+      "event": "claimed",
+      "details": {
+        "orderId": "ord_1804a3f711d7753c",
+        "orderNumber": "ORD-20260425-00005",
+        "serverId": "paper-survival-01"
+      },
+      "timestamp": "2026-04-25T15:13:47.500Z"
+    },
+    {
+      "id": "log_39edfd58ed7789e6",
+      "scope": "payment",
+      "event": "paid",
+      "details": {
+        "orderId": "ord_1804a3f711d7753c",
+        "orderNumber": "ORD-20260425-00005",
+        "paymentReference": "MOCK-000005"
+      },
+      "timestamp": "2026-04-25T15:11:41.645Z"
+    },
+    {
+      "id": "log_4e73829ab5fcf493",
+      "scope": "payment",
+      "event": "mock.checkout.created",
+      "details": {
+        "orderId": "ord_1804a3f711d7753c",
+        "orderNumber": "ORD-20260425-00005",
+        "paymentReference": "MOCK-000005"
+      },
+      "timestamp": "2026-04-25T15:11:38.350Z"
+    },
+    {
+      "id": "log_d30d5a481b88155f",
+      "scope": "order",
+      "event": "created",
+      "details": {
+        "orderId": "ord_1804a3f711d7753c",
+        "orderNumber": "ORD-20260425-00005",
+        "username": "lewbox16",
+        "itemCount": 1
+      },
+      "timestamp": "2026-04-25T15:11:38.346Z"
+    },
+    {
+      "id": "log_9c258073e0443ecd",
+      "scope": "payment",
+      "event": "paid",
+      "details": {
+        "orderId": "ord_e8d379577e2d25b4",
+        "orderNumber": "ORD-20260425-00004",
+        "paymentReference": "MOCK-000004"
+      },
+      "timestamp": "2026-04-25T14:54:50.482Z"
+    },
+    {
+      "id": "log_37a495e3f0698466",
+      "scope": "payment",
+      "event": "mock.checkout.created",
+      "details": {
+        "orderId": "ord_e8d379577e2d25b4",
+        "orderNumber": "ORD-20260425-00004",
+        "paymentReference": "MOCK-000004"
+      },
+      "timestamp": "2026-04-25T14:54:48.577Z"
+    },
+    {
+      "id": "log_ab0e2b13aa6cfc43",
+      "scope": "order",
+      "event": "created",
+      "details": {
+        "orderId": "ord_e8d379577e2d25b4",
+        "orderNumber": "ORD-20260425-00004",
+        "username": "lewbox16",
+        "itemCount": 1
+      },
+      "timestamp": "2026-04-25T14:54:48.569Z"
+    },
+    {
+      "id": "log_30bb2690cb355369",
+      "scope": "payment",
+      "event": "paid",
+      "details": {
+        "orderId": "ord_206cfea265865bba",
+        "orderNumber": "ORD-20260425-00003",
+        "paymentReference": "MOCK-000003"
+      },
+      "timestamp": "2026-04-25T12:22:19.232Z"
+    },
+    {
+      "id": "log_4074bf505e8dfde8",
+      "scope": "payment",
+      "event": "mock.checkout.created",
+      "details": {
+        "orderId": "ord_206cfea265865bba",
+        "orderNumber": "ORD-20260425-00003",
+        "paymentReference": "MOCK-000003"
+      },
+      "timestamp": "2026-04-25T12:22:13.927Z"
+    },
+    {
+      "id": "log_9c865377565a4353",
+      "scope": "order",
+      "event": "created",
+      "details": {
+        "orderId": "ord_206cfea265865bba",
+        "orderNumber": "ORD-20260425-00003",
+        "username": "lewbox16",
+        "itemCount": 1
+      },
+      "timestamp": "2026-04-25T12:22:13.921Z"
+    },
+    {
+      "id": "log_0b6be42cb4c0bd29",
+      "scope": "payment",
+      "event": "paid",
+      "details": {
+        "orderId": "ord_96ba169bb8d45e85",
+        "orderNumber": "ORD-20260425-00002",
+        "paymentReference": "MOCK-000002"
+      },
+      "timestamp": "2026-04-25T12:00:43.871Z"
+    },
+    {
+      "id": "log_2585b0622a149d7b",
+      "scope": "payment",
+      "event": "mock.checkout.created",
+      "details": {
+        "orderId": "ord_96ba169bb8d45e85",
+        "orderNumber": "ORD-20260425-00002",
+        "paymentReference": "MOCK-000002"
+      },
+      "timestamp": "2026-04-25T12:00:40.114Z"
+    },
+    {
+      "id": "log_65c9f912c6a5dd1c",
+      "scope": "order",
+      "event": "created",
+      "details": {
+        "orderId": "ord_96ba169bb8d45e85",
+        "orderNumber": "ORD-20260425-00002",
+        "username": "lewbox16",
+        "itemCount": 1
+      },
+      "timestamp": "2026-04-25T12:00:40.106Z"
+    },
+    {
+      "id": "log_8f5758d17740c105",
+      "scope": "payment",
+      "event": "paid",
+      "details": {
+        "orderId": "ord_6bc42318f4d47011",
+        "orderNumber": "ORD-20260425-00001",
+        "paymentReference": "MOCK-000001"
+      },
+      "timestamp": "2026-04-25T11:59:50.105Z"
+    },
+    {
+      "id": "log_c06c948ed2b38ad7",
+      "scope": "payment",
+      "event": "mock.checkout.created",
+      "details": {
+        "orderId": "ord_6bc42318f4d47011",
+        "orderNumber": "ORD-20260425-00001",
+        "paymentReference": "MOCK-000001"
+      },
+      "timestamp": "2026-04-25T11:59:37.538Z"
+    },
+    {
+      "id": "log_f09606c95d56cff5",
+      "scope": "order",
+      "event": "created",
+      "details": {
+        "orderId": "ord_6bc42318f4d47011",
+        "orderNumber": "ORD-20260425-00001",
+        "username": "lewbox16",
+        "itemCount": 1
+      },
+      "timestamp": "2026-04-25T11:59:37.532Z"
+    }
+  ]
+}
