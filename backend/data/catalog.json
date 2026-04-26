@@ -1,0 +1,62 @@
+[
+  {
+    "id": "vip-rank",
+    "name": "VIP Rank",
+    "description": "Permanent VIP rank with chat flair, /hat, and 2 extra homes.",
+    "category": "Ranks",
+    "priceCents": 999,
+    "icon": "VIP",
+    "accent": "#d95b37",
+    "imageUrl": "./assets/products/vip-rank.svg",
+    "iconMaterial": "GOLDEN_HELMET",
+    "rewardKey": "vip-rank"
+  },
+  {
+    "id": "ember-trail",
+    "name": "Ember Trail",
+    "description": "Cosmetic trail effect for lobby movement and celebrations.",
+    "category": "Cosmetics",
+    "priceCents": 499,
+    "icon": "FX",
+    "accent": "#f2a541",
+    "imageUrl": "./assets/products/ember-trail.svg",
+    "iconMaterial": "BLAZE_POWDER",
+    "rewardKey": "ember-trail"
+  },
+  {
+    "id": "xp-booster",
+    "name": "Weekend XP Booster",
+    "description": "Applies a 1.5x personal XP booster for the next 48 hours.",
+    "category": "Boosts",
+    "priceCents": 699,
+    "icon": "XP",
+    "accent": "#1f7a8c",
+    "imageUrl": "./assets/products/xp-booster.svg",
+    "iconMaterial": "EXPERIENCE_BOTTLE",
+    "rewardKey": "xp-booster"
+  },
+  {
+    "id": "crate-bundle",
+    "name": "Crate Bundle",
+    "description": "Five premium crate keys for seasonal rewards and cosmetics.",
+    "category": "Bundles",
+    "priceCents": 1299,
+    "icon": "CR",
+    "accent": "#5c946e",
+    "imageUrl": "./assets/products/crate-bundle.svg",
+    "iconMaterial": "TRIPWIRE_HOOK",
+    "rewardKey": "crate-bundle"
+  },
+  {
+    "id": "netmore-key",
+    "name": "NetMore Key",
+    "description": "A direct server key reward for one NetMore crate key.",
+    "category": "Keys",
+    "priceCents": 399,
+    "icon": "KEY",
+    "accent": "#4062bb",
+    "imageUrl": "./assets/products/netmore-key.svg",
+    "iconMaterial": "TRIPWIRE_HOOK",
+    "rewardKey": "netmore-key"
+  }
+]
